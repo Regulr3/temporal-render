@@ -9,8 +9,8 @@ databases:
   plan: standard
 
 services:
-- type: pserv
-  name: web
+- type: web
+  name: temporal
   autoDeploy: false
   plan: Standard
   env: docker
